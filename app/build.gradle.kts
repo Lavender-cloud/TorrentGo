@@ -22,9 +22,9 @@ android {
     buildFeatures { compose = true }
 }
 dependencies {
-    implementation("com.frostwire:jlibtorrent:2.0.12.7")
-    implementation("com.frostwire:jlibtorrent-android-arm:2.0.12.7")
-    implementation("com.frostwire:jlibtorrent-android-arm64:2.0.12.7")
+    implementation("com.frostwire:jlibtorrent:2.0.13.6")
+    implementation("com.frostwire:jlibtorrent-android-arm:2.0.13.6")
+    implementation("com.frostwire:jlibtorrent-android-arm64:2.0.13.6")
     implementation("androidx.activity:activity-compose:1.9.0")
     implementation(platform("androidx.compose:compose-bom:2024.06.00"))
     implementation("androidx.compose.material3:material3")
